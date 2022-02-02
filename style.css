@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Readex+Pro:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    height: auto  ;
+    background-color: hsl(222, 25%, 10%);;
+}
+
+.g0{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1330px;
+}
+
+.g1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 80px;
+}
+
+.g2{
+    display: flex;
+    align-items: center;
+}
+
+.g3{
+    margin: 0 0 0 20px;
+}
+
+.g3 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.g3 li{
+    margin-right: 60px;}
+
+.g3 a{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.g3 a:hover{
+    transition: all 0.5s ease;
+    color: hsl(214, 84%, 56%);
+}
+
+.g4 span{
+    color: white;
+    font-size: 14px;
+}
+
+.g4 span:hover{
+    transition: all 0.5s ease;
+    color: hsl(214, 84%, 56%);
+}
+
+.g4{
+    display: flex;
+    align-items: center;
+}
+
+.g4 a{
+    text-decoration: none;
+}
+
+.g5{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 40px;
+    background-color: hsl(214, 62%, 26%);
+    margin-right: 50px;
+}
+
+.g5 input{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.section2{
+    padding: 0 80px;
+
+}
+
+.g6{
+    /* padding: 0 80px; */
+    margin-bottom: 60px;
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.g6 .g10 {
+    background: url('./images/John-Wick-3.jpg') no-repeat;
+    background-position: top;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.g10:hover {
+    transform: scale(1.1);
+    /* filter: blur(5px); */
+    transition: all .5s ease;
+}
+
+.g7{
+    position: absolute;
+    bottom: 3em;
+    left: 3em;
+    z-index: 1;
+}
+
+.g8{
+    display: flex;
+    margin: 0 0 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.g8 .span0{
+    margin: 0 20px 0 0;
+}
+
+.g9 h1{
+    color: white;
+    font-size: 48px;
+}
+
+.g11{
+    height: 35px;
+    border-radius: 20px;
+    margin: 0 0 30px;
+    padding: 20px 30px;
+    background-color: #162032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.g14{
+    margin: 0 0 0 50px;
+}
+
+.g12 li{
+    list-style: none;
+    color: white;
+}
+
+.g13>ul>li>ul{
+    display: none;
+}
+
+.g14>ul>li>ul{
+    display: none;
+}
+
+.g16{
+    display: flex;
+    align-items: center;
+    background-color: hsl(222, 25%, 10%);
+    height: 45px;
+    border-radius: 10px;
+}
+
+
+.g17 h3{
+    color: white;
+    margin: 0 15px 0 15px;
+}
+
+.g18 h3,
+.g19 h3{
+    color: white;
+    margin: 0 15px 0 0;
+}
+
+
+.g20{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+    justify-items: center
+}
+
+.g6{
+    margin-bottom: 60px;
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.g21 .s1 img {
+    border-radius: 15px;
+    height: 250px;
+    width: 168;
+}
+
+.g21 .s2 p{
+    width: 160px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 0 5px;
+}
+
+.g21 .s2 span{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.g21:hover .s2>p{
+    color: hsl(214, 84%, 56%);
+    transition: all 0.5s ease;
+}
+
+.g21:hover .s1 img{
+    filter: blur(5px);
+    transition: all .5s ease;
+}
+
+.g22{
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+}
+
+.g23{
+    border-radius: 15px;
+    padding: 20px 50px;
+    background-color: hsl(218, 39%, 14%);
+    color: white;
+}
+
+
+.g23:hover{
+    transition: all 0.5s ease;
+    background-color: hsl(214, 84%, 56%);
+}
+
+.section1{
+    padding: 0 80px;
+
+    margin-bottom: 60px;
+}
+
+.g24 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 60px;
+}
+
+
+.g25{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.g26{
+    border-radius: 20px; 
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.g26 .img1{
+    position: relative;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.g26 .img1 img{
+    background: linear-gradient(180deg, transparent 20%, #000a);
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+.section3{
+    padding: 0 80px;
+    margin-bottom: 60px;
+}
+
+.g27 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 60px;
+}
+
+.g28{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.g29 .s1{
+    /* overflow: hidden; */
+    position: relative;
+    height: 250px;
+    /* border-radius: 20px; */
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.g29 .s1 img{
+    border-radius: 20px;
+    display: block;
+    width: 385px;
+    height: 250px;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.g29 .s2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.g29 .s2 .f1 img{
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.g29 .s2 .f2 h3{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+}
+
+.g30{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 40px;
+}
+
+.g31{
+    display: flex;
+    flex-direction: column;
+}
+
+.g31 .r1{
+    margin-bottom: 30px;
+
+}
+
+.g31 .r2{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.g31 .r3{
+    margin: 0 0 65px 0;
+}
+
+.g32{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.g32 h2{
+    color: white;
+    font-size: 16px;
+    margin: 0 0 20px;
+
+}
+
+.g32 ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    list-style: none;
+    color: white;
+}
+
+.g32 ul li:hover{
+    transition: all 0.5s ease;
+    color: hsl(214, 84%, 56%);
+}
